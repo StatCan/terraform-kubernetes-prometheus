@@ -8,13 +8,15 @@ variable "helm_repository_username" {
   default = ""
 }
 
-variable "chart_version" {}
+variable "chart" {
+  default = "prometheus-operator"
+}
 
-variable "dependencies" {
-  type = "list"
+variable "chart_version" {
+  default = "0.2.2"
 }
 
 variable "values" {
   default = ""
-  type    = "string"
+  type    = string
 }
