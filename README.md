@@ -1,3 +1,7 @@
+# ⚠️  DEPRECATED
+
+Further development has moved to [terraform-kubernetes-kube-prometheus-stack](https://github.com/StatCan/terraform-kubernetes-kube-prometheus-stack#previous-module).
+
 # Terraform Kubernetes Prometheus
 
 ## Introduction
